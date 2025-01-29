@@ -1,10 +1,11 @@
 import Layout from "../Layout/Layout"
 
-const Home = ({ name }) => {
+const Home = ({ posts }) => {
+    console.log(posts);
     return (
-        <div>Home {name} </div>
+        <div>Home {posts} </div>
     )
 }
 
-/* Home.layout = page => <Layout children={page} /> */
+
 export default Home;
